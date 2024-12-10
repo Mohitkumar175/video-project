@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color:#b8b4b4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+nav .logo a {
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .logo span {
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, rgba(29, 29, 29, 0.8), rgba(154, 238, 234, 0.986)), url('hero-image.jpg') no-repeat center center/cover;
+    padding: 100px 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #f39c12;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #e67e22;
+}
+
+
+.reels {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.reel-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reel-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px;
+    margin: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reel-item h3 {
+    font-size: 18px;
+    padding: 15px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.reel-video {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
